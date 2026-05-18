@@ -139,100 +139,102 @@ ER DIAGRAM:
 
 Login Page:
 
-*(screenshot to be added)*
+<img width="879" height="617" alt="Screenshot 2026-05-18 120033" src="https://github.com/user-attachments/assets/6c77ae66-28c5-4095-80de-d04f54cd1151" />
+
 
 Register Page:
 
-*(screenshot to be added)*
+<img width="819" height="704" alt="Screenshot 2026-05-18 120310" src="https://github.com/user-attachments/assets/765415c5-25e7-4a96-87f7-6a79a77dd6bc" />
+
 
 Customer Home:
 
-*(screenshot to be added)*
+<img width="1151" height="759" alt="image" src="https://github.com/user-attachments/assets/280f671d-7a6a-4b3f-91de-11aa3fa4856f" />
+
 
 Product Details:
 
-*(screenshot to be added)*
+<img width="1082" height="753" alt="Screenshot 2026-05-18 120248" src="https://github.com/user-attachments/assets/29bf339b-48c1-46ba-828b-ac8f37ea5a78" />
 
 Cart Page:
 
-*(screenshot to be added)*
+<img width="858" height="610" alt="Screenshot 2026-05-18 120120" src="https://github.com/user-attachments/assets/f0ea0122-3a75-42ef-9530-a6f39efc7852" />
 
 Payment Page:
 
-*(screenshot to be added)*
+<img width="621" height="655" alt="Screenshot 2026-05-18 120241" src="https://github.com/user-attachments/assets/1f07de8a-e61c-47b8-adef-6dafd512af86" />
 
 My Orders:
 
-*(screenshot to be added)*
+<img width="946" height="671" alt="image" src="https://github.com/user-attachments/assets/0be9cc31-31bb-4327-baf5-2a3efced2481" />
+
 
 Write Review:
 
-*(screenshot to be added)*
+<img width="570" height="613" alt="Screenshot 2026-05-18 120428" src="https://github.com/user-attachments/assets/f2d620e7-077c-4789-83ca-5e8f0e9e3467" />
 
 Customer Profile:
 
-*(screenshot to be added)*
+<img width="631" height="788" alt="Screenshot 2026-05-18 120302" src="https://github.com/user-attachments/assets/be20117b-df1c-4988-bccb-af47636b6753" />
 
 Vendor Dashboard:
 
-*(screenshot to be added)*
+<img width="1176" height="776" alt="Screenshot 2026-05-18 120400" src="https://github.com/user-attachments/assets/03dd9883-aa02-44af-a37a-9b6aae67b48a" />
 
 Vendor My Products:
 
-*(screenshot to be added)*
+<img width="1147" height="739" alt="Screenshot 2026-05-18 120421" src="https://github.com/user-attachments/assets/6e5e2d8f-707c-46c3-b2b9-7cb24635aa52" />
 
 Vendor Add Product:
 
-*(screenshot to be added)*
+<img width="669" height="758" alt="image" src="https://github.com/user-attachments/assets/df251c0f-ec9d-4e96-874b-40d9219a1056" />
+
 
 Vendor Orders:
 
-*(screenshot to be added)*
+<img width="1021" height="667" alt="Screenshot 2026-05-18 120408" src="https://github.com/user-attachments/assets/1fcfbb11-d1ff-4224-b36c-568591a38f39" />
 
 Vendor Stock Dashboard:
 
-*(screenshot to be added)*
+<img width="951" height="728" alt="image" src="https://github.com/user-attachments/assets/d63d685d-0381-481f-8157-8be7817894a5" />
+
 
 Vendor Earnings Report:
 
-*(screenshot to be added)*
+<img width="949" height="722" alt="Screenshot 2026-05-18 120138" src="https://github.com/user-attachments/assets/7eea236d-1b6c-490b-aa4a-1e0d5de638a6" />
 
 Admin Dashboard:
 
-*(screenshot to be added)*
+<img width="1158" height="760" alt="Screenshot 2026-05-18 120103" src="https://github.com/user-attachments/assets/9d1cbd3f-613e-47ac-9eca-93ded4fb97b4" />
 
-Admin Manage Vendors:
+Admin Manage Users:
 
-*(screenshot to be added)*
+<img width="1014" height="673" alt="image" src="https://github.com/user-attachments/assets/e67923b1-f3c8-4dc7-a8f4-8819efe33b8e" />
 
-Admin Manage Customers:
-
-*(screenshot to be added)*
 
 Admin Manage Reviews:
 
-*(screenshot to be added)*
+<img width="1029" height="683" alt="Screenshot 2026-05-18 120209" src="https://github.com/user-attachments/assets/c891b302-b62e-4a06-8c82-77f690f89782" />
 
 Admin Dispute Center:
 
-*(screenshot to be added)*
+<img width="1014" height="688" alt="Screenshot 2026-05-18 120201" src="https://github.com/user-attachments/assets/aa455bf9-b41c-4fa1-b7c6-7538425589f7" />
 
 Admin Sales Report:
 
-*(screenshot to be added)*
+<img width="967" height="707" alt="Screenshot 2026-05-18 120320" src="https://github.com/user-attachments/assets/d08c1b76-1b80-4569-80fe-80a021a55163" />
 
 Admin Manage Discounts:
-
-*(screenshot to be added)*
+<img width="1014" height="684" alt="image" src="https://github.com/user-attachments/assets/b8ced340-ceb4-4c2e-8b54-602846ed8263" />
 
 Admin Stock Overview:
 
-*(screenshot to be added)*
+<img width="1001" height="713" alt="Screenshot 2026-05-18 120111" src="https://github.com/user-attachments/assets/4a39a732-d1eb-4660-b893-d802b1aa2596" />
 
 SuperAdmin Control Panel:
 
-*(screenshot to be added)*
+<img width="1152" height="755" alt="Screenshot 2026-05-18 120341" src="https://github.com/user-attachments/assets/cf0ffd5d-8a7c-447e-816b-926a39f084c3" />
 
 SuperAdmin Manage Admins:
 
-*(screenshot to be added)*
+<img width="1130" height="741" alt="Screenshot 2026-05-18 120348" src="https://github.com/user-attachments/assets/4490a136-73c7-40a0-aec4-a8bdb91efdff" />
