@@ -22,110 +22,11 @@ An Admin can see all vendors and customers with their full details and manage th
 Admin can manage reviews, handle disputes, set discounts on any product, and view platform-wide sales reports.
 SuperAdmin can create, suspend, activate, and delete admin accounts and view full platform-wide statistics.
 
-DATABASE SCHEMA: SQL Query:
+DATABASE SCHEMA:
 
-```sql
-create database NeedBridgeDB;
+Full SQL script: [NeedBridgeDB.sql](./NeedBridgeDB.sql)
 
-create table Users (
-    user_id    int primary key identity(1,1),
-    full_name  nvarchar(100) not null,
-    username   nvarchar(50)  not null unique,
-    password   nvarchar(100) not null,
-    email      nvarchar(100),
-    phone      nvarchar(20),
-    address    nvarchar(255),
-    user_type  nvarchar(20)  not null,
-    status     nvarchar(20)  default 'active',
-    created_at datetime      default getdate()
-)
-
-create table Categories (
-    category_id   int primary key identity(1,1),
-    category_name nvarchar(100) not null,
-    description   nvarchar(255)
-)
-
-create table Products (
-    product_id   int primary key identity(1,1),
-    vendor_id    int not null,
-    category_id  int not null,
-    product_name nvarchar(150) not null,
-    description  nvarchar(500),
-    price        decimal(10,2) not null,
-    discount_pct decimal(5,2)  default 0,
-    stock_qty    int           default 0,
-    image_path   nvarchar(255),
-    availability nvarchar(20)  default 'available',
-    created_at   datetime      default getdate(),
-    foreign key (vendor_id)   references Users(user_id),
-    foreign key (category_id) references Categories(category_id)
-)
-
-create table Cart (
-    cart_id     int primary key identity(1,1),
-    customer_id int not null,
-    product_id  int not null,
-    quantity    int not null default 1,
-    added_at    datetime default getdate(),
-    foreign key (customer_id) references Users(user_id),
-    foreign key (product_id)  references Products(product_id)
-)
-
-create table Orders (
-    order_id         int primary key identity(1,1),
-    customer_id      int not null,
-    product_id       int not null,
-    vendor_id        int not null,
-    quantity         int not null,
-    total_price      decimal(10,2) not null,
-    order_status     nvarchar(30)  default 'Placed',
-    payment_method   nvarchar(30),
-    delivery_address nvarchar(255),
-    order_date       datetime      default getdate(),
-    updated_at       datetime      default getdate(),
-    foreign key (customer_id) references Users(user_id),
-    foreign key (product_id)  references Products(product_id),
-    foreign key (vendor_id)   references Users(user_id)
-)
-
-create table Payments (
-    payment_id      int primary key identity(1,1),
-    order_id        int not null,
-    customer_id     int not null,
-    amount          decimal(10,2) not null,
-    payment_method  nvarchar(30) not null,
-    transaction_ref nvarchar(100),
-    payment_status  nvarchar(20) default 'completed',
-    payment_date    datetime     default getdate(),
-    foreign key (order_id)    references Orders(order_id),
-    foreign key (customer_id) references Users(user_id)
-)
-
-create table Reviews (
-    review_id   int primary key identity(1,1),
-    customer_id int not null,
-    product_id  int not null,
-    order_id    int not null,
-    rating      int not null,
-    comment     nvarchar(500),
-    review_date datetime default getdate(),
-    foreign key (customer_id) references Users(user_id),
-    foreign key (product_id)  references Products(product_id),
-    foreign key (order_id)    references Orders(order_id)
-)
-
-select * from Users;
-select * from Categories;
-select * from Products;
-select * from Cart;
-select * from Orders;
-select * from Payments;
-select * from Reviews;
-
-insert into Users (full_name, username, password, email, phone, address, user_type, status)
-values ('Muhammad Taki Ahmed', 'taki', 'taki1234', 'taki@needbridge.com', '01700000001', 'Dhaka', 'superadmin', 'active')
-```
+Run this file in SQL Server Management Studio (SSMS) to create the database with all tables and sample data.
 
 Database Schema:
 
