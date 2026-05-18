@@ -129,11 +129,13 @@ values ('Muhammad Taki Ahmed', 'taki', 'taki1234', 'taki@needbridge.com', '01700
 
 Database Schema:
 
-*(screenshot to be added)*
+<img width="1536" height="1024" alt="SCHEMA DIAGRAM" src="https://github.com/user-attachments/assets/df715763-04c8-4e66-8f94-592eacbeeb85" />
+
 
 ER DIAGRAM:
 
-*(screenshot to be added)*
+<img width="1536" height="1024" alt="ER DIAGRAM" src="https://github.com/user-attachments/assets/36a02bc7-f476-47bb-afc1-b147ec98c6f1" />
+
 
 Login Page:
 
